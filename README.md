@@ -1,3 +1,6 @@
+# Recorded Video Link
+https://drive.google.com/file/d/1YVw-eklKiMX21HTqnJTGDvVLrctN-ewz/view?usp=sharing
+
 # Sales Agent using Google ADK
 
 This project implements a conversational sales agent leveraging Google’s Agent Development Kit (ADK) and AI Studio’s Gemini model. It handles multiple lead interactions concurrently, collects specific information, and follows up with unresponsive leads after a simulated delay.
@@ -55,7 +58,8 @@ sales_agent_adk/
    ```
 
 
-# note api key is already defined in .env file so no need to write it again.
+# note api key is already defined in .env file so no need to write it again but in case if you are 
+# not able to use the api then follow the instructions.
 4. **Configure your API key**:
 
    ```bash
@@ -69,7 +73,10 @@ sales_agent_adk/
    ```dotenv
    GOOGLE_GENAI_USE_VERTEXAI=FALSE
    GOOGLE_API_KEY=YOUR_API_KEY_HERE
-   ```
+   ```   
+  go to Google cloud platform create a project and then search Google gemini api on the search box of google cloud   
+  and then enable the api then go to Google Ai studio and create a Api
+  By selecting the project which is created on Google cloud. 
 
 ## Running the Agent
 
